@@ -1,7 +1,8 @@
-source "https://rubygems.org"
-
 # To use a new gem, update this file and run *bundle install* in Ruby.
 # Build and serve the site using *bundle exec jekyll serve* in Ruby.
+
+source "https://rubygems.org"
+
 
 gem "wdm", ">= 0.1.0" if Gem.win_platform?
 
