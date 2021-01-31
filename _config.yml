@@ -2,7 +2,8 @@
 url: https://samandaneshvar.github.io/613tech
 title: Reliable Tech Experts - 613tech.ca
 description: The best computer repair shop in Ottawa and Gatineau.
-logo: assets/images/logo-icon.svg
+logo: assets/images/logo.svg
+logo-icon: assets/images/logo-icon.svg
 favicon: assets/images/favicon.png
 google_analytics: xxx
 disqus: demowebsite
