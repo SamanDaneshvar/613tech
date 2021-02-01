@@ -3,7 +3,8 @@ layout: default
 title: Home
 ---
 
-{% if page.url == "/" %}
+<!-- Show the featured posts only on the main page of the blog, and not on /page2, etc. -->
+{% if page.url == "/blog/" %}
 
 <!-- Featured
 ================================================== -->
