@@ -29,7 +29,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
+
 # Archives
 jekyll-archives:
   enabled:
@@ -37,11 +43,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: /category/:name/
-    
+
 # Pagination 
 paginate: 6
 paginate_path: /blog/page:num/
-    
+
 # Other
 markdown: kramdown
 
