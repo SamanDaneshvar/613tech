@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
-permalink: /about
+title: Contact
+permalink: /contact
 comments: false
 ---
 
