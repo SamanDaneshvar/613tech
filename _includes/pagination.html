@@ -10,9 +10,9 @@
     {% if page == paginator.page %}
       <span class="ml-1 mr-1">{{ page }}</span>
     {% elsif page == 1 %}
-      <a class="ml-1 mr-1" href="{{ site.url }}">{{ page }}</a>
+      <a class="ml-1 mr-1" href="{{ site.url }}{{ site.paginate_path | replace: "page:num/", "" }}">{{ page }}</a>
     {% else %}
-      <a class="ml-1 mr-1" href="{{ site.url }}{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+      <a class="ml-1 mr-1" href="{{ site.url }}{{ site.paginate_path | replace: ":num", page }}">{{ page }}</a>
     {% endif %}
   {% endfor %}
 
