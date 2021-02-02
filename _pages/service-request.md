@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Service Request
-permalink: /service-request
+permalink: /service-request/
 comments: false
 ---
 This is the content of this page (default layout).

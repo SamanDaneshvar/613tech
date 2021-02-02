@@ -20,28 +20,28 @@
 
             <ul class="navbar-nav ml-auto">
 
-                {% if page.url == "/service-request" %}
+                {% if page.url == "/service-request/" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.url }}/service-request">Service Request</a>
+                <a class="nav-link" href="{{ site.url }}/service-request/">Service Request</a>
                 </li>
 
-                {% if page.url == "/blog" %}
+                {% if page.url == "/blog/" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.url }}/blog">Blog</a>
+                <a class="nav-link" href="{{ site.url }}/blog/">Blog</a>
                 </li>
 
-                {% if page.url == "/contact" %}
+                {% if page.url == "/contact/" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.url }}/contact">Contact</a>
+                <a class="nav-link" href="{{ site.url }}/contact/">Contact</a>
                 </li>
 
                 {% include search-lunr.html %}
