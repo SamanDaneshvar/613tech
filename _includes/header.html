@@ -46,13 +46,29 @@
     </div>
 </nav>
 
-<!-- Site Title
+
+<!-- Intro Header
 ================================================== -->
-<div class="container">
-	<div class="mainheading">
-		<h1 class="sitetitle">{{ site.title }}</h1>
-		<p class="lead">
-			{{ site.description }}
-		</p>
+{% if page.header %}
+
+<!-- Possible values for page.header: full, compact, title-only, and falsy (false or blank) -->
+<div class="intro-header {{ page.header }}">
+	<!-- Sitle title and description -->
+	<div class="container">
+		<div class="mainheading">
+			<h1 class="sitetitle">{{ site.title }}</h1>
+			<p class="lead">{{ site.description }}</p>
+		</div>
 	</div>
 </div>
+
+{% else %}
+
+<!-- With no header, the top margin of the site content needs to increase to 62px (the height of the navigation bar). -->
+<style>
+.site-content {
+	margin-top: 62px;
+}
+</style>
+
+{% endif %}
