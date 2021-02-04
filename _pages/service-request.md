@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Service Request
+header: compact
 permalink: /service-request/
 comments: false
 ---

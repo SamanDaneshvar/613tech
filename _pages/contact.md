@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+header: compact
 permalink: /contact/
 comments: false
 ---
