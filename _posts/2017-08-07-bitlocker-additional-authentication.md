@@ -2,7 +2,7 @@
 layout: post
 title: Bitlocker - Require additional authentication at startup
 author: saman
-image: 
+image: assets/images/emoji-locked-with-key-twitter.svg
 description: 
 categories: [encryption, security]
 tags: [windows 10]
