@@ -85,11 +85,11 @@ layout: default
             <!-- Post Date -->
             <p>
             <small>
-                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
-                {% if page.last_modified_at %}
-                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                <span class="post-date"><time class="post-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</time></span>           
+                {% if page.revision_date %}
+                (Updated: <time datetime="{{ page.revision_date | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.revision_date | date: "%B %e, %Y" }}</time>)
                 {% endif %}
-                </small>
+			</small>
             </p>
 
             <!-- Post Categories -->
