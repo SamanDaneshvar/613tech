@@ -2,7 +2,7 @@
 layout: post
 title: Post Template
 author: saman
-image: 
+image: assets/images/post-template.jpg
 description: 
 categories: [category 1]
 tags: [tag 1, tag 2]
