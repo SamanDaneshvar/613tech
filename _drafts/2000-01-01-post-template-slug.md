@@ -9,7 +9,7 @@ tags: [tag 1, tag 2]
 beforetoc: 
 toc: false
 rating: 4.5
-revision_date: 
+revision_date: 2030-01-01
 featured: false
 hidden: false
 

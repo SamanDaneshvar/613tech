@@ -49,6 +49,9 @@ collections:
     output: true
     permalink: /blog/:title/
 
+# Show drafts? (default: false)
+show_drafts: false
+
 # Archives
 jekyll-archives:
   enabled:
