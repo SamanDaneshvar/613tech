@@ -2,6 +2,8 @@
 layout: page
 title: Contact
 header: compact
+footer-alertbar: true
+footer-jumbotron: false
 permalink: /contact/
 comments: false
 ---

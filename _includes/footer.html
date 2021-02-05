@@ -1,4 +1,4 @@
-{% if site.mailchimp-list %}
+{% if page.footer-alertbar and site.mailchimp-list %}
 <!-- Bottom Alert Bar
 ================================================== -->
 <div class="alertbar">
@@ -14,6 +14,8 @@
 </div>
 {% endif %}
 
+
+{% if page.footer-jumbotron %}
 <!-- Categories Jumbotron
 ================================================== -->
 <div class="jumbotron fortags">
@@ -38,6 +40,8 @@
 		</div>
 	</div>
 </div>
+{% endif %}
+
 
 <!-- Footer
 ================================================== -->

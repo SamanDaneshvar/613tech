@@ -2,6 +2,8 @@
 layout: default
 title: Service Request
 header: compact
+footer-alertbar: false
+footer-jumbotron: false
 permalink: /service-request/
 comments: false
 ---
