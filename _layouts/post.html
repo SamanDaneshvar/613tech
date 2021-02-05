@@ -5,7 +5,7 @@ disqus: false
 archive: false
 post_class: post-template
 ---
-<!-- Begin Article
+<!-- Article
 ================================================== -->
 <div class="container">
     <div class="row">
@@ -63,18 +63,20 @@ post_class: post-template
 
             <!-- Post Content -->
             <div class="article-post">
-                <!-- Toc if any -->
                 {% if page.toc %}
+				<!-- Table of Contents -->
                     {% if page.beforetoc %}
                         <p><em>{{page.beforetoc}}</em></p>
                     {% endif %}
+					
                     <div class="toc mt-4 mb-4 lead">
                         <h3 class="font-weight-bold">Summary</h3>
                         {% include toc.html html=content %}
                     </div>
-                {% endif %}
                 <!-- End Toc -->
-                {{content}}
+				{% endif %}
+                
+				{{content}}
             </div>
 
             <!-- Rating -->
@@ -137,12 +139,11 @@ post_class: post-template
 
     </div>
 </div>
-<!-- End Article
-================================================== -->
 
-<!-- Begin Comments
+
+<!-- Comments
 ================================================== -->
-{% if page.comments != false %}
+{% if page.comments %}
     <div class="container">
         <div id="comments" class="row justify-content-center mb-5">
             <div class="col-md-8">
@@ -151,10 +152,10 @@ post_class: post-template
         </div>
     </div>
 {% endif %}
-<!--End Comments
-================================================== -->
 
-<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+
+<!-- Rating
+Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
 https://search.google.com/structured-data/testing-tool/u/0/
 ================================================== -->
 {% if page.rating %}

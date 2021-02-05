@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  About Bundler
+title: About Bundler
 author: saman
 categories: [ Jekyll ]
 image: assets/images/2.jpg
