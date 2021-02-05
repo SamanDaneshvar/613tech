@@ -30,6 +30,19 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
+# Define default values for specific pages, files, or layouts.
+# These values can be overridden in the front matter of specific pages.
+defaults:
+  # Set default values for all posts.
+  - scope:
+      path: ""  # An empty string matches all files in the project
+      type: posts  # Alternatively:  layout: post
+    values:
+      header: false
+      comments: true
+      footer-alertbar: true
+      footer-jumbotron: true
+
 # Collections
 collections:
   posts:
